@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="IdentityServer3.Localization">
-      <HintPath>..\packages\IdentityServer3.Localization.0.1.6\lib\net45\IdentityServer3.Localization.dll</HintPath>
+    <Reference Include="IdentityServer3.Localization, Version=0.1.19.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\IdentityServer3.Localization.0.1.19\lib\net45\IdentityServer3.Localization.dll</HintPath>
     </Reference>
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
