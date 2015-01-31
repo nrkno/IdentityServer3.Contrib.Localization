@@ -9,19 +9,9 @@ namespace NuGettests
 {
     public class NuGetPackageTests
     {
-
         [Theory]
         [InlineData("nb-NO")]
-        public void ShouldGetLocalizedMessages(string culture)
-        {
-            AssertTranslationExists(culture, _possibleMessageIds, "Messages");
-            AssertTranslationExists(culture, _possibleEventIds, "Events");
-            AssertTranslationExists(culture, _possibleScopeIds, "Scopes");
-        }
-        
-        [Theory(Skip = "Bug in idsrv default localization service. Enable when fixed")]
-        [InlineData("")] // <-- This means using IdentityServers DefaultLocalizationService
-        public void ShouldGetIdServersLocalizedMessages(string culture)
+        public void ShouldGetLocalizedMessagesUsingNugetLatestNuGetPackage(string culture)
         {
             AssertTranslationExists(culture, _possibleMessageIds, "Messages");
             AssertTranslationExists(culture, _possibleEventIds, "Events");
