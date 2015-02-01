@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="clientidrequired" xml:space="preserve">
-    <value>Kullanıcı kimliği gereklidir</value>
+    <value>client_id gereklidir</value>
   </data>
   <data name="externalprovidererror" xml:space="preserve">
-    <value>Harici kimlik doğrulayıcıya oturum açılırken bir hata oluştu. Hata mesajı: {0}</value>
+    <value>Harici kimlik sağlayıcıya oturum açılırken bir hata oluştu. Hata mesajı: {0}</value>
   </data>
   <data name="invalidusernameorpassword" xml:space="preserve">
-    <value>Geçersiz kullanıcı adı ve parola</value>
+    <value>Geçersiz kullanıcı adı veya parola</value>
   </data>
   <data name="invalid_scope" xml:space="preserve">
     <value>İstemci uygulama yetkisi olmayan bir kaynağa erişmeye çalıştı.</value>
@@ -139,7 +139,7 @@
     <value>En az bir izin seçmelisiniz</value>
   </data>
   <data name="noexternalprovider" xml:space="preserve">
-    <value>Harici kimlik doğrulayıcı belirtilmedi.</value>
+    <value>Harici kimlik sağlayıcı belirtilmedi.</value>
   </data>
   <data name="nomatchingexternalaccount" xml:space="preserve">
     <value>Geçersiz Hesap</value>
@@ -148,7 +148,7 @@
     <value>Hangi uygulamaya oturum açacağınız belirlenirken hata oluştu. Uygulamaya geri dönerek tekrar deneyin.</value>
   </data>
   <data name="nosubjectfromexternalprovider" xml:space="preserve">
-    <value>Harici kimlik doğrulayıcı ile kimlik doğrulanırken hata oluştu</value>
+    <value>Harici kimlik sağlayıcı ile kimlik doğrulanırken hata oluştu</value>
   </data>
   <data name="passwordrequired" xml:space="preserve">
     <value>Parola gereklidir</value>
