@@ -31,6 +31,7 @@ Pirate culture:
 ## Supported languages
  * English (the default provided by the DefaultLocalizationService)
  * nb-NO (Norwegian Bokmål)
+ * tr-TR (Turkish)
  * pirate (yarr)
  
 ## Install
