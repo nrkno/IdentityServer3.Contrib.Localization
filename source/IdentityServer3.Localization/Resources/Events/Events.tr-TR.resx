@@ -124,10 +124,10 @@
     <value>Harici Oturum Başarılı</value>
   </data>
   <data name="localloginfailure" xml:space="preserve">
-    <value>Dahili Oturum Başarısız</value>
+    <value>Yerel Oturum Başarısız</value>
   </data>
   <data name="localloginsuccess" xml:space="preserve">
-    <value>Dahili Oturum Başarılı</value>
+    <value>Yerel Oturum Başarılı</value>
   </data>
   <data name="logoutevent" xml:space="preserve">
     <value>Oturum Kapatma Eylemi</value>
@@ -139,9 +139,9 @@
     <value>Kısmi Oturum Tamamlandı</value>
   </data>
   <data name="preloginfailure" xml:space="preserve">
-    <value>Oturum Öncesi Hatası</value>
+    <value>Ön Oturum Hatası</value>
   </data>
   <data name="preloginsuccess" xml:space="preserve">
-    <value>Oturum Öncesi Başarılı</value>
+    <value>Ön Oturum Başarılı</value>
   </data>
 </root>
