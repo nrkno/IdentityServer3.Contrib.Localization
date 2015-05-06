@@ -14,5 +14,6 @@ namespace Thinktecture.IdentityServer.Core.Services.Contrib
         public const string nlNL = "nl-NL";
         public const string zhCN = "zh-CN";
         public const string daDK = "da-DK";
+        public const string ruRU = "ru-RU";
     }
 }
