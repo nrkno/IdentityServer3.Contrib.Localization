@@ -142,13 +142,13 @@
     <value>Необходимо выбрать по крайней мере одно разрешение.</value>
   </data>
   <data name="NoExternalProvider" xml:space="preserve">
-    <value>Внешний провайдер авторизации не предусмотрен.</value>
+    <value>Авторизация внешним провайдером не предусмотрена.</value>
   </data>
   <data name="NoMatchingExternalAccount" xml:space="preserve">
     <value>Неверный аккаунт</value>
   </data>
   <data name="NoSignInCookie" xml:space="preserve">
-    <value>Обнаружена пошибка в приложении,которое Вы пытаетесь подписать. Вернитесь в приложении и попробуйте снова.</value>
+    <value>Обнаружена ошибка в приложении, в котором происходит авторизация. Вернитесь в приложение и попробуйте снова.</value>
   </data>
   <data name="NoSubjectFromExternalProvider" xml:space="preserve">
     <value>Ошибка аутентификации во внешнем провайдере</value>
