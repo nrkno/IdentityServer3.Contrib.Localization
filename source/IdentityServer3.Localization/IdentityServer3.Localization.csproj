@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Events\Events.cs-CZ.resx" />
+    <EmbeddedResource Include="Resources\Events\Events.it-IT.resx" />
     <EmbeddedResource Include="Resources\Events\Events.pt-BR.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -103,6 +104,7 @@
     <EmbeddedResource Include="Resources\Events\Events.tr-TR.resx" />
     <EmbeddedResource Include="Resources\Events\Events.es-AR.resx" />
     <EmbeddedResource Include="Resources\Messages\Messages.cs-CZ.resx" />
+    <EmbeddedResource Include="Resources\Messages\Messages.it-IT.resx" />
     <EmbeddedResource Include="Resources\Messages\Messages.pt-BR.resx" />
     <EmbeddedResource Include="Resources\Messages\Messages.ru-Ru.resx" />
     <EmbeddedResource Include="Resources\Messages\Messages.zh-CN.resx" />
@@ -120,6 +122,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Messages\Messages.tr-TR.resx" />
     <EmbeddedResource Include="Resources\Scopes\Scopes.cs-CZ.resx" />
+    <EmbeddedResource Include="Resources\Scopes\Scopes.it-IT.resx" />
     <EmbeddedResource Include="Resources\Scopes\Scopes.pt-BR.resx" />
     <EmbeddedResource Include="Resources\Scopes\Scopes.ru-RU.resx" />
     <EmbeddedResource Include="Resources\Scopes\Scopes.zh-CN.resx" />

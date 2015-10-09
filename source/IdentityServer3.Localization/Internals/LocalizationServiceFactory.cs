@@ -28,6 +28,7 @@ namespace IdentityServer3.Core.Services.Contrib.Internals
             AvailableLocalizationServices.Add(CreateResourceBased(Constants.ruRU));
             AvailableLocalizationServices.Add(CreateResourceBased(Constants.ptBR));
             AvailableLocalizationServices.Add(CreateResourceBased(Constants.csCZ));
+            AvailableLocalizationServices.Add(CreateResourceBased(Constants.itIT));
         }
 
         public static ILocalizationService Create(LocaleOptions options)
