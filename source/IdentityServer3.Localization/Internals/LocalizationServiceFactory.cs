@@ -13,6 +13,7 @@ namespace IdentityServer3.Core.Services.Contrib.Internals
             AvailableLocalizationServices = new Dictionary<string, ILocalizationService>
             {
                 {Constants.Default, new DefaultLocalizationService()},
+                {Constants.Auto, new AutomaticFileLocalizationService()},
                 {Constants.Pirate, new PirateLocalizationService()}
             };
             AvailableLocalizationServices.Add(CreateResourceBased(Constants.deDE));

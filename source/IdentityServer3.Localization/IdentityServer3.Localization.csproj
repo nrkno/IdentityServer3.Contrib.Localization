@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="Internals\AutomaticFileLocalizationService.cs" />
     <Compile Include="Internals\FallbackDecorator.cs" />
     <Compile Include="GlobalizedLocalizationService.cs" />
     <Compile Include="LocaleOptions.cs" />

@@ -8,6 +8,7 @@ namespace Unittests
     {
         [Theory]
         [InlineData("Default")]
+        [InlineData("Auto")]
         [InlineData("pirate")]
         [InlineData("de-DE")]
         [InlineData("es-AR")]
@@ -30,7 +31,7 @@ namespace Unittests
         [Fact]
         public void HasCorrectCount()
         {
-            Assert.Equal(15, GlobalizedLocalizationService.GetAvailableLocales().Count());
+            Assert.Equal(16, GlobalizedLocalizationService.GetAvailableLocales().Count());
         }
     }
 }
