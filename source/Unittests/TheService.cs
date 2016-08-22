@@ -82,6 +82,7 @@ namespace Unittests
         }
 
         [Theory]
+		[InlineData(null)]
         [InlineData("")]
         [InlineData("notexisting")]
         public void DoesNotThrowsExceptionForUnknownLocales(string locale)

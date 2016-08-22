@@ -12,6 +12,11 @@ namespace IdentityServer3.Core.Services.Contrib.Internals
         {
             var locale = options.GetLocale(env);
 
+            if (string.IsNullOrWhiteSpace(locale))
+            {
+                locale = Constants.enUS;
+            }
+
             var isLanguage = locale.Length == 2;
             if (isLanguage)
             {
