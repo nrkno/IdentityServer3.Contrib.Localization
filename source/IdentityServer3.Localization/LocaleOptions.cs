@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using IdentityServer3.Core.Services.Default;
 
@@ -6,12 +6,12 @@ namespace IdentityServer3.Core.Services.Contrib
 {
     public class LocaleOptions
     {
-
         public LocaleOptions()
         {
             FallbackLocalizationService = new DefaultLocalizationService();
         }
 
+        [Obsolete]
         public string Locale
         {
             set
@@ -33,12 +33,14 @@ namespace IdentityServer3.Core.Services.Contrib
 
         internal string GetLocale(IDictionary<string, object> env)
         {
-            if (LocaleProvider != null )
+            var locale = LocaleProvider?.Invoke(env);
+
+            if (string.IsNullOrWhiteSpace(locale))
             {
-                return LocaleProvider(env);
+                return Constants.enUS;
             }
-            return Constants.enUS;
+
+            return locale;
         }
-        
     }
 }

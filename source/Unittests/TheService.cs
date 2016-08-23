@@ -99,6 +99,23 @@ namespace Unittests
             var dontCare = service.GetString(IdSrvConstants.Messages, MessageIds.MissingClientId);
         }
 
+        [Theory]
+        [InlineData(null)]
+        [InlineData("")]
+        public void GetLocaleReturnsDefaultWhenLocaleProviderReturnsNullOrWhitespace(string locale)
+        {
+            var options = new LocaleOptions
+            {
+                LocaleProvider = env => locale
+            };
+
+            var envServiceMock = new Fake<OwinEnvironmentService>().FakedObject;
+
+            var result = options.GetLocale(envServiceMock.Environment);
+
+            Assert.Equal("en-US", result);
+        }
+
         [Fact]
         public void FetchesResourceWhenUsingLocaleProviderFunc()
         {
