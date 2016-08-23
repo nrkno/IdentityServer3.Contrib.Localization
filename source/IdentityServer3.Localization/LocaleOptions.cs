@@ -33,7 +33,12 @@ namespace IdentityServer3.Core.Services.Contrib
 
         internal string GetLocale(IDictionary<string, object> env)
         {
-            var locale = LocaleProvider?.Invoke(env);
+            if (LocaleProvider == null)
+            {
+                return Constants.enUS;
+            }
+
+            var locale = LocaleProvider(env);
 
             if (string.IsNullOrWhiteSpace(locale))
             {
