@@ -85,7 +85,7 @@ namespace Unittests
 		[InlineData(null)]
         [InlineData("")]
         [InlineData("notexisting")]
-        public void DoesNotThrowsExceptionForUnknownLocales(string locale)
+        public void UnknownLocalesUseDefaultLocale(string locale)
         {
             var options = new LocaleOptions
             {
@@ -96,7 +96,9 @@ namespace Unittests
 
             var service = new GlobalizedLocalizationService(envServiceMock, options);
 
-            var dontCare = service.GetString(IdSrvConstants.Messages, MessageIds.MissingClientId);
+            var resource = service.GetString(IdSrvConstants.Messages, MessageIds.MissingClientId);
+
+            Assert.Equal("client_id is missing", resource);
         }
 
         [Fact]
