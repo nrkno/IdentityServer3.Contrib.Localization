@@ -55,6 +55,7 @@ namespace Unittests
         [InlineData("tr")]
         [InlineData("tr-TR")]
         [InlineData("zh-CN")]
+        [InlineData("zh-TW")]
         public void HasTranslationsForAllPublicIds(string availableCulture)
         {
             AssertTranslationExists(availableCulture, TestHelper.GetAllMessageIds(), IdSrvConstants.Messages);
@@ -168,6 +169,8 @@ namespace Unittests
         [InlineData("tr")]
         [InlineData("tr-TR")]
         [InlineData("zh-CN")]
+        [InlineData("zh-TW")]
+
         public void ContainsLocales(string locale)
         {
             var env = new Dictionary<string, object>();
