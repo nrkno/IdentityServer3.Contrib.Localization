@@ -157,7 +157,7 @@
     <value>SSL er påkrevd</value>
   </data>
   <data name="unauthorized_client" xml:space="preserve">
-    <value>Ikke autorisert klient</value>
+    <value>Uautorisert klient</value>
   </data>
   <data name="UnexpectedError" xml:space="preserve">
     <value>Uventet feil</value>
