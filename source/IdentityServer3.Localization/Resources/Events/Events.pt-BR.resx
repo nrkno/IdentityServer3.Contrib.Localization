@@ -124,13 +124,13 @@
     <value>Relatório de política de segurança de conteúdo (CSP)</value>
   </data>
   <data name="ExternalLoginError" xml:space="preserve">
-    <value>Erro no login externo</value>
+    <value>Erro no logon externo</value>
   </data>
   <data name="ExternalLoginFailure" xml:space="preserve">
-    <value>Falha no login externo</value>
+    <value>Falha no logon externo</value>
   </data>
   <data name="ExternalLoginSuccess" xml:space="preserve">
-    <value>Sucesso no login externo</value>
+    <value>Sucesso no logon externo</value>
   </data>
   <data name="LocalLoginFailure" xml:space="preserve">
     <value>Falha no logon local</value>
@@ -142,21 +142,21 @@
     <value>Evento de logout</value>
   </data>
   <data name="PartialLogin" xml:space="preserve">
-    <value>Login Parcial</value>
+    <value>Logon Parcial</value>
   </data>
   <data name="PartialLoginComplete" xml:space="preserve">
-    <value>Login Parcial completo</value>
+    <value>Logon Parcial completo</value>
   </data>
   <data name="PreLoginFailure" xml:space="preserve">
-    <value>Falha no Pré-Login</value>
+    <value>Falha no Pré-Logon</value>
   </data>
   <data name="PreLoginSuccess" xml:space="preserve">
-    <value>Sucesso no Pré-Login</value>
+    <value>Sucesso no Pré-Logon</value>
   </data>
   <data name="ResourceOwnerFlowLoginFailure" xml:space="preserve">
     <value>O logon usando fluxo Resource Owner falhou</value>
   </data>
   <data name="ResourceOwnerFlowLoginSuccess" xml:space="preserve">
-    <value>Login usando fluxo Resource Owner feito com sucesso</value>
+    <value>Logon usando fluxo Resource Owner feito com sucesso</value>
   </data>
 </root>
