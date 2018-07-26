@@ -154,9 +154,9 @@
     <value>Sucesso no Pré-Login</value>
   </data>
   <data name="ResourceOwnerFlowLoginFailure" xml:space="preserve">
-    <value>Falha de logon com fluxo de recurso proprietário e senha </value>
+    <value>O logon usando fluxo Resource Owner falhou</value>
   </data>
   <data name="ResourceOwnerFlowLoginSuccess" xml:space="preserve">
-    <value>Sucesso no login com fluxo de recurso proprietário e senha </value>
+    <value>Login usando fluxo Resource Owner feito com sucesso</value>
   </data>
 </root>
