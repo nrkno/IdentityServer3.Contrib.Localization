@@ -142,16 +142,16 @@
     <value>Evento de logout</value>
   </data>
   <data name="PartialLogin" xml:space="preserve">
-    <value>Logon Parcial</value>
+    <value>Logon parcial</value>
   </data>
   <data name="PartialLoginComplete" xml:space="preserve">
-    <value>Logon Parcial completo</value>
+    <value>Logon parcial completo</value>
   </data>
   <data name="PreLoginFailure" xml:space="preserve">
-    <value>Falha no Pré-Logon</value>
+    <value>Falha no pré-logon</value>
   </data>
   <data name="PreLoginSuccess" xml:space="preserve">
-    <value>Sucesso no Pré-Logon</value>
+    <value>Sucesso no pré-logon</value>
   </data>
   <data name="ResourceOwnerFlowLoginFailure" xml:space="preserve">
     <value>O logon usando fluxo Resource Owner falhou</value>
