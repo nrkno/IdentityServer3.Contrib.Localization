@@ -142,6 +142,6 @@
     <value>Perfil de usuário</value>
   </data>
   <data name="roles_DisplayName" xml:space="preserve">
-    <value>Funções de usuário</value>
+    <value>Cargos do usuário</value>
   </data>
 </root>
