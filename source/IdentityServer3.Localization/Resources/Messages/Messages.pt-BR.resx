@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ClientIdRequired" xml:space="preserve">
-    <value>Identificador do cliente é necessário</value>
+    <value>O identificador do cliente é necessário</value>
   </data>
   <data name="ExternalProviderError" xml:space="preserve">
     <value>Há um log de erro do provedor externo. A mensagem de erro: {0}</value>
   </data>
   <data name="invalid_request" xml:space="preserve">
-    <value>O aplicativo cliente fez um pedido inválido.</value>
+    <value>O aplicativo cliente fez uma requisição inválida.</value>
   </data>
   <data name="invalid_scope" xml:space="preserve">
     <value>O aplicativo cliente tentou acessar um recurso que não tem acesso.</value>
   </data>
   <data name="InvalidUsernameOrPassword" xml:space="preserve">
-    <value>Nome de usuário ou senha inválido</value>
+    <value>Nome de usuário ou senha inválidos</value>
   </data>
   <data name="MissingClientId" xml:space="preserve">
-    <value>client_id está faltando</value>
+    <value>O client_id está faltando</value>
   </data>
   <data name="MissingToken" xml:space="preserve">
     <value>O token está faltando</value>
@@ -154,7 +154,7 @@
     <value>Erro de autenticação com o provedor externo</value>
   </data>
   <data name="PasswordRequired" xml:space="preserve">
-    <value>Senha é necessária</value>
+    <value>A senha é necessária</value>
   </data>
   <data name="SslRequired" xml:space="preserve">
     <value>SSL é necessário</value>
@@ -172,6 +172,6 @@
     <value>Tipo de mídia (Media Type) não suportado</value>
   </data>
   <data name="UsernameRequired" xml:space="preserve">
-    <value>Nome de usuário é necessária</value>
+    <value>O nome de usuário é necessário</value>
   </data>
 </root>
