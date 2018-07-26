@@ -148,7 +148,7 @@
     <value>Conta inválida</value>
   </data>
   <data name="NoSignInCookie" xml:space="preserve">
-    <value>Há um erro ao determinar qual aplicativo você está assinando. Retorne para o aplicativo e tente novamente.</value>
+    <value>Há um erro ao determinar em qual aplicativo você está logando. Retorne para o aplicativo e tente novamente.</value>
   </data>
   <data name="NoSubjectFromExternalProvider" xml:space="preserve">
     <value>Erro de autenticação com o provedor externo</value>
