@@ -19,6 +19,8 @@ namespace IdentityServer3.Core.Services.Contrib
 
         public const string itIT = "it-IT";
 
+        public const string jaJP = "ja-JP";
+
         public const string nb = "nb";
         public const string nbNO = "nb-NO";
         public const string nlNL = "nl-NL";
