@@ -64,7 +64,7 @@ namespace IdentityServer3.Core.Services.Contrib.Internals
                 {"ru", "ru-RU"},
                 {"sk", "sk-SK"},
                 {"sv", "sv-SE"},
-                {"tr", "tr-TR"},
+                {"tr", "tr-TR"}
             };
     }
 }
