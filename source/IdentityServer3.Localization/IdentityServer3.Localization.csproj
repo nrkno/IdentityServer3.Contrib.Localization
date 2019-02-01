@@ -81,10 +81,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Events\Events.ja-JP.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Events.ja-JP.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Events\Events.ja-JP.resx" />
     <EmbeddedResource Include="Resources\Events\Events.en-GB.resx" />
     <EmbeddedResource Include="Resources\Events\Events.en-US.resx" />
     <EmbeddedResource Include="Resources\Events\Events.es-ES.resx" />
@@ -115,10 +112,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Events\Events.tr-TR.resx" />
     <EmbeddedResource Include="Resources\Events\Events.es-AR.resx" />
-    <EmbeddedResource Include="Resources\Messages\Messages.ja-JP.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Messages.ja-JP.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages\Messages.ja-JP.resx" />
     <EmbeddedResource Include="Resources\Messages\Messages.en-GB.resx" />
     <EmbeddedResource Include="Resources\Messages\Messages.en-US.resx" />
     <EmbeddedResource Include="Resources\Messages\Messages.ar-SA.resx" />
@@ -145,10 +139,7 @@
       <LastGenOutput>Messages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Messages\Messages.tr-TR.resx" />
-    <EmbeddedResource Include="Resources\Scopes\Scopes.ja-JP.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Scopes.ja-JP.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Scopes\Scopes.ja-JP.resx" />
     <EmbeddedResource Include="Resources\Scopes\Scopes.en-GB.resx" />
     <EmbeddedResource Include="Resources\Scopes\Scopes.en-US.resx" />
     <EmbeddedResource Include="Resources\Scopes\Scopes.ar-SA.resx" />
